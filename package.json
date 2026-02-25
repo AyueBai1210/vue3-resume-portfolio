@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist -r https://github.com/ayuebai1210/vue3-resume-portfolio.git"
   },
+  "homepage": "https://ayuebai1210.github.io/vue3-resume-portfolio/",
   "dependencies": {
     "vue": "^3.5.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.2",
+    "gh-pages": "^6.3.0",
     "vite": "^7.3.1"
   }
 }
